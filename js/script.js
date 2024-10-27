@@ -156,3 +156,11 @@
 //     }
 // }
 // console.log(counter);
+
+//? 11. **Massivni qabul qilib, har bir elementiga 2 qo‘shadigan va qaytadigan funksiyani yozing.**
+// let arr = [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8];
+// let res = [];
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     res.push(arr[i] + 2);
+// }
+// console.log(res);
