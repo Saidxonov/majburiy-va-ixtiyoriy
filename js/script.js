@@ -198,3 +198,12 @@
 //     return res;
 // }
 // console.log(findBirBalo(numbers));
+
+//? 14. **Stringni qabul qilib, u bilan boshlanadigan va tugaydigan belgini olib tashlaydigan funksiyani yozing.**
+// let str = "pHello, World!";
+
+// function deleteFirstAndLastWord(arg) {
+//     let res = arg.slice(1, -1);
+//     return res;
+// }
+// console.log(deleteFirstAndLastWord(str));
