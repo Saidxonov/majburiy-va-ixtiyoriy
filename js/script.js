@@ -180,3 +180,21 @@
 //     }
 // });
 // console.log(longestWord);
+
+//? 13. **Foydalanuvchidan massiv qabul qilib, uning ichidagi raqamlarni o‘rtacha qiymatidan katta bo‘lgan elementlarni ajratib qaytaruvchi funksiyani yozing.**
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let sum = 0;
+// function findBirBalo(arg) {
+//     for (let i = 0; i < arg.length; i++) {
+//         sum += arg[i];
+//     }
+//     let average = sum / arg.length;
+//     let res = [];
+//     for (let i = 0; i < arg.length; i++) {
+//         if (arg[i] > average) {
+//             res.push(arg[i]);
+//         }
+//     }
+//     return res;
+// }
+// console.log(findBirBalo(numbers));
