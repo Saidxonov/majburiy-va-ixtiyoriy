@@ -236,3 +236,19 @@
 //     return res;
 // }
 // console.log(bigStr(userStr));
+
+//? 18. **Obyektlar massividan berilgan yoshdan kattalarni ajratib qaytaradigan funksiyani yozing.**
+// let users = [
+//     { name: "John", age: 25 },
+//     { name: "Saidburxon", age: 14 },
+//     { name: "Sardor", age: 16 },
+//     { name: "Aziz", age: 18 },
+//     { name: "Kala", age: 100 },
+//     { name: "Hitler", age: 138 },
+// ];
+
+// function filterUsers(arg, age) {
+//     let res = arg.filter((user) => user.age > age);
+//     return res;
+// }
+// console.log(filterUsers(users, 16));
