@@ -99,7 +99,7 @@
 // });
 // console.log(res);
 
-//? 6. **Ikki obyektni qabul qilib, ularni birlashtiruvchi funksiyani yozing.**
+//? 6.misol
 // let obj1 = {
 //   a: 1,
 //   b: 2,
@@ -115,3 +115,8 @@
 //   return { ...obj1, ...obj2 };
 // }
 // console.log(mergeObjects(obj1, obj2));
+
+//? 7. **Foydalanuvchidan string qabul qilib, undagi bo‘sh joylarni olib tashlaydigan funksiyani yozing.**
+// let userStr = prompt("String kiriting");
+// let res = userStr.replace(/ /, "");
+// console.log(res);
