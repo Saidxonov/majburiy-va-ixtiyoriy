@@ -120,3 +120,14 @@
 // let userStr = prompt("String kiriting");
 // let res = userStr.replace(/ /, "");
 // console.log(res);
+
+//? 8. **Obyektdagi barcha qiymatlarni massivga o‘tkazuvchi funksiyani yozing.**
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+// };
+// let value = Object.values(obj);
+// let res = [];
+// res.push(value);
+// console.log(res);
