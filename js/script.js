@@ -61,3 +61,13 @@
 //   return userName[0].toUpperCase() + userName.slice(1);
 // }
 // console.log(bigStr());
+
+//? 2.misol
+// let userStr = prompt("Ismingizni kiriting!");
+// let res = [];
+
+// function reverseStr() {
+//   res = userStr.split("").reverse().join("");
+//   return res;
+// }
+// console.log(reverseStr());
