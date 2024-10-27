@@ -345,3 +345,17 @@
 //     }
 // }
 // console.log(counter);
+
+//? 20. **Ikki string qabul qilib, ularning umumiy harflarini ajratib qaytaradigan funksiyani yozing.**
+// function ajratilganLetters(str1, str2) {
+//     let str1Letters = str1.split("").sort().join("");
+//     let str2Letters = str2.split("").sort().join("");
+//     let commonLetters = "";
+//     for (let i = 0; i < str1Letters.length; i++) {
+//         if (str2Letters.includes(str1Letters[i])) {
+//             commonLetters += str1Letters[i];
+//         }
+//     }
+//     return commonLetters;
+// }
+// console.log(ajratilganLetters("hello", "world"));
