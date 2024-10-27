@@ -164,3 +164,19 @@
 //     res.push(arr[i] + 2);
 // }
 // console.log(res);
+
+//? 12. **Massiv ichida eng uzun so'zni aniqlab qaytaruvchi funksiyani yozing.**
+// let arr = [
+//     "Salom",
+//     "dunyo",
+//     "javascript",
+//     "programmalogiya",
+//     "gidroelektromexanizatsiyalashtirilmaganliklaridanmikan",
+// ];
+// let longestWord = "";
+// arr.forEach(function(value) {
+//     if (value.length > longestWord.length) {
+//         longestWord = value;
+//     }
+// });
+// console.log(longestWord);
