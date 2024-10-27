@@ -84,3 +84,10 @@
 //   return sum / arg.length;
 // }
 // console.log(ortachaQiymat(numbers));
+
+//? 4.misol
+// let str = ["salom", "hayr", "qalaysiz"];
+// let res = str.map(function (value) {
+//   return value.length;
+// });
+// console.log(res);
