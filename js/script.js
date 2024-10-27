@@ -139,3 +139,20 @@
 //     max: Math.max(...arr),
 // };
 // console.log(res);
+
+//? 10. **Berilgan stringda nechta unli harf borligini hisoblovchi funksiyani yozing.**
+// let str = "Salom dunyo";
+// let res = str.split("");
+// let counter = 0;
+// for (let i = 0; i <= res.length; i++) {
+//     if (
+//         res[i] == "a" ||
+//         res[i] == "o" ||
+//         res[i] == "u" ||
+//         res[i] == "i" ||
+//         res[i] == "e"
+//     ) {
+//         counter++;
+//     }
+// }
+// console.log(counter);
