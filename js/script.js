@@ -402,7 +402,7 @@ function findBirBalo(arg) {
 console.log(findBirBalo(numbers));`,
     },
     {
-      title: "Massivning O'rtacha Sonidan Katta Qiymatlar",
+      title: "Ortacha Sondan Katta Qiymatlar",
       code: `let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
       let sum = 0;
       function findBirBalo(arg) {
@@ -435,9 +435,10 @@ console.log(findBirBalo(numbers));`,
                 }
                 return res;
             }
-            return JSON.stringify(findBirBalo(numbers));
+            return findBirBalo(numbers);
         })()`),
     },
+
     {
       title: "Stringdagi 1-chi va oxirgi harflarni olib tashlash",
       code: `let str = "pHello, World!";
