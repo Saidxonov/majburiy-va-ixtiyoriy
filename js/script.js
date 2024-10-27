@@ -71,3 +71,16 @@
 //   return res;
 // }
 // console.log(reverseStr());
+
+//? 3.misol
+// let numbers = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+// let res;
+// let sum = 0;
+
+// function ortachaQiymat(arg) {
+//   for (let i = 0; i <= arg.length - 1; i++) {
+//     sum += arg[i];
+//   }
+//   return sum / arg.length;
+// }
+// console.log(ortachaQiymat(numbers));
