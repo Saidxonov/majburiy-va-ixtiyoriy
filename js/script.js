@@ -385,21 +385,77 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Ortacha Sondan Katta Qiymatlar",
       code: `let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let sum = 0;
-function findBirBalo(arg) {
-    for (let i = 0; i < arg.length; i++) {
-        sum += arg[i];
-    }
-    let average = sum / arg.length;
-    let res = [];
-    for (let i = 0; i < arg.length; i++) {
-        if (arg[i] > average) {
-            res.push(arg[i]);
-        }
-    }
-    return res;
-}
-console.log(findBirBalo(numbers));`,
+      let sum = 0;
+      function findBirBalo(arg) {
+          for (let i = 0; i < arg.length; i++) {
+              sum += arg[i];
+          }
+          let average = sum / arg.length;
+          let res = [];
+          for (let i = 0; i < arg.length; i++) {
+              if (arg[i] > average) {
+                  res.push(arg[i]);
+              }
+          }
+          return res;
+      }
+      console.log(findBirBalo(numbers));`,
+      result: eval(`(function() {
+            let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            let sum = 0;
+            function findBirBalo(arg) {
+                for (let i = 0; i < arg.length; i++) {
+                    sum += arg[i];
+                }
+                let average = sum / arg.length;
+                let res = [];
+                for (let i = 0; i < arg.length; i++) {
+                    if (arg[i] > average) {
+                        res.push(arg[i]);
+                    }
+                }
+                return res;
+            }
+            return findBirBalo(numbers);
+        })()`),
+    },
+
+    {
+      title: "Ortacha Sondan Katta Qiymatlar",
+      code: `let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      let sum = 0;
+      function findBirBalo(arg) {
+          for (let i = 0; i < arg.length; i++) {
+              sum += arg[i];
+          }
+          let average = sum / arg.length;
+          let res = [];
+          for (let i = 0; i < arg.length; i++) {
+              if (arg[i] > average) {
+                  res.push(arg[i]);
+              }
+          }
+          return res;
+      }
+      console.log(findBirBalo(numbers));`,
+      result: eval(`(function() {
+            let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            let sum = 0;
+            function findBirBalo(arg) {
+                for (let i = 0; i < arg.length; i++) {
+                    sum += arg[i];
+                }
+                let average = sum / arg.length;
+                let res = [];
+                for (let i = 0; i < arg.length; i++) {
+                    if (arg[i] > average) {
+                        res.push(arg[i]);
+                    }
+                }
+                return res;
+            }
+            return findBirBalo(numbers);
+        })()`),
     },
 
     {
