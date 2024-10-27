@@ -98,3 +98,20 @@
 //   return value % 2 === 1;
 // });
 // console.log(res);
+
+//? 6. **Ikki obyektni qabul qilib, ularni birlashtiruvchi funksiyani yozing.**
+// let obj1 = {
+//   a: 1,
+//   b: 2,
+//   c: 3,
+// };
+// let obj2 = {
+//   d: 4,
+//   e: 5,
+//   f: 6,
+// };
+
+// function mergeObjects(obj1, obj2) {
+//   return { ...obj1, ...obj2 };
+// }
+// console.log(mergeObjects(obj1, obj2));
