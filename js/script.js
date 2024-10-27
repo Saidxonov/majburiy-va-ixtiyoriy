@@ -228,3 +228,11 @@
 //     return res;
 // }
 // console.log(reverseMassiv(numbers));
+
+//? 17. **Stringni qabul qilib, uni har bir so‘zini katta harflarda yozib qaytaradigan funksiyani yozing.**
+// let userStr = prompt("iSmingizni kiriting");
+// function bigStr(arg) {
+//     let res = arg.toUpperCase();
+//     return res;
+// }
+// console.log(bigStr(userStr));
