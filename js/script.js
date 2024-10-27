@@ -52,3 +52,12 @@
 //   }
 // });
 // console.log(ism);
+
+//!---------------------------------> Majburiy masalalar <--------------------------------------
+
+//? 1.misol
+// let userName = prompt("Ismingizni kiriting");
+// function bigStr() {
+//   return userName[0].toUpperCase() + userName.slice(1);
+// }
+// console.log(bigStr());
