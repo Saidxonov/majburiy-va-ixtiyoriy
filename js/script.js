@@ -207,3 +207,15 @@
 //     return res;
 // }
 // console.log(deleteFirstAndLastWord(str));
+
+//? 15. **Berilgan massivdagi barcha raqamlarning kvadratlari yig'indisini hisoblaydigan funksiyani yozing.**
+// let arr = [1, 2, 3, 4, 5];
+// let res = [];
+// let sum = 0;
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     res.push(arr[i] ** 2);
+// }
+// for (let i = 0; i <= res.length - 1; i++) {
+//     sum += res[i];
+// }
+// console.log(sum);
