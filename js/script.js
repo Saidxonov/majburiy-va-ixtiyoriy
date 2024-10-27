@@ -131,3 +131,11 @@
 // let res = [];
 // res.push(value);
 // console.log(res);
+
+//? 9. **Berilgan massivdagi sonlarning eng kichigi va eng kattasini aniqlab, obyekt sifatida qaytaruvchi funksiyani yozing (masalan, `{min: 2, max: 10}`).**
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let res = {
+//     min: Math.min(...arr),
+//     max: Math.max(...arr),
+// };
+// console.log(res);
