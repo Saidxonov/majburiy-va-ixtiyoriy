@@ -285,81 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const solutions = [
     {
-      title: "Fibonacci Ketma-ketligi",
-      code: `function fibonacci(n) {
-      if (n < 2) return n;
-      return fibonacci(n - 1) + fibonacci(n - 2);
-    }
-    console.log(fibonacci(10));`,
-      result: eval(`(function() {
-            function fibonacci(n) {
-              if (n < 2) return n;
-              return fibonacci(n - 1) + fibonacci(n - 2);
-            }
-            return fibonacci(10);
-          })()`),
-    },
-    {
-      title: "String ichidagi 0 ni * bilan almashtirish",
-      code: `function strReplaceStar(arg) {
-      return arg.replaceAll("0", "*");
-    }
-    console.log(strReplaceStar("sa0lom"));`,
-      result: eval(`(function() {
-            function strReplaceStar(arg) {
-              return arg.replaceAll("0", "*");
-            }
-            return strReplaceStar("sa0lom");
-          })()`),
-    },
-    {
-      title: "Obyektlarni Muallif Nomini O'zgartirish",
-      code: `const kitoblar = [
-      { nom: "kitob A", muallif: "Saidburxon" },
-      { nom: "kitob B", muallif: "saidburxon" },
-      { nom: "kitob C", muallif: "saidburxon" }
-    ];
-    kitoblar.forEach(function(value) {
-      value.muallif = "Alisher Navoiy";
-    });
-    console.log(kitoblar);`,
-      result: eval(`(function() {
-            const kitoblar = [
-              { nom: "kitob A", muallif: "Saidburxon" },
-              { nom: "kitob B", muallif: "saidburxon" },
-              { nom: "kitob C", muallif: "saidburxon" }
-            ];
-            kitoblar.forEach(function(value) {
-              value.muallif = "Alisher Navoiy";
-            });
-            return JSON.stringify(kitoblar, null, 2);
-          })()`),
-    },
-    {
-      title: "Ismni Mr. bilan Boshlash",
-      code: `const ism = [
-      { ism: "Jasur", yosh: 21 },
-      { ism: "Sardorbek", yosh: 22 },
-      { ism: "Azizbek", yosh: 20 }
-    ];
-    ism.forEach(function(value) {
-      value.ism = "Mr." + value.ism;
-    });
-    console.log(ism);`,
-      result: eval(`(function() {
-            const ism = [
-              { ism: "Jasur", yosh: 21 },
-              { ism: "Sardorbek", yosh: 22 },
-              { ism: "Azizbek", yosh: 20 }
-            ];
-            ism.forEach(function(value) {
-              value.ism = "Mr." + value.ism;
-            });
-            return JSON.stringify(ism, null, 2);
-          })()`),
-    },
-    {
-      title: "Massivdagi Harflar Sonini Aniqlash",
+      title: "Massivdagi Harflar Uzunligi Sonini Aniqlash",
       code: `let str = ["salom", "hayr", "qalaysiz"];
     let res = str.map(function(value) {
       return value.length;
@@ -457,7 +383,7 @@ document.addEventListener("DOMContentLoaded", () => {
           })()`),
     },
     {
-      title: "Ortacha sondan katta qiymatlar",
+      title: "Ortacha Sondan Katta Qiymatlar",
       code: `let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let sum = 0;
 function findBirBalo(arg) {
@@ -476,7 +402,7 @@ function findBirBalo(arg) {
 console.log(findBirBalo(numbers));`,
     },
     {
-      title: "Massivning o'rtacha sonidan katta qiymatlar",
+      title: "Massivning O'rtacha Sonidan Katta Qiymatlar",
       code: `let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
       let sum = 0;
       function findBirBalo(arg) {
