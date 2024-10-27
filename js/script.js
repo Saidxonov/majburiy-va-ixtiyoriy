@@ -91,3 +91,10 @@
 //   return value.length;
 // });
 // console.log(res);
+
+//? 5.misol
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let res = numbers.filter(function (value) {
+//   return value % 2 === 1;
+// });
+// console.log(res);
